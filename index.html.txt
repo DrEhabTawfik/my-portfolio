@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ملفي الشخصي</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 50px;
+        }
+        img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-top: 20px;
+        }
+        h1 { color: #333; }
+        p { color: #666; }
+        .links a {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 20px;
+            background: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .links a:hover { background: #0056b3; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="profile.jpg" alt="صورتك الشخصية">
+        <h1>اسمك هنا</h1>
+        <p>متخصص في التعلم الإلكتروني والذكاء الاصطناعي</p>
+        <h2>نبذة عني</h2>
+        <p>أنا باحث دكتوراه في تكنولوجيا التعليم، أعمل على تطوير بيئات تعلم ذكية باستخدام محفزات الألعاب وتقنيات الذكاء الاصطناعي.</p>
+        <h2>أعمالي</h2>
+        <p>مشروع 1 - مشروع 2 - مشروع 3</p>
+        <h2>تواصل معي</h2>
+        <div class="links">
+            <a href="#">LinkedIn</a>
+            <a href="#">GitHub</a>
+            <a href="#">Email</a>
+        </div>
+    </div>
+</body>
+</html>
